@@ -1,0 +1,25 @@
+* section
+  * 列表第一项
+  * 列表第二项
+    * sfdsdfwe
+** 二级标题两个*
+   1. 有序1
+   2. order 2
+      1. order nest
+      2. panma+panvi
+# 顶行#注释
+# 插入公式($行内:ima$,$$行间:ilma$$)和图片(直img+jf补全,在写入绝对路径)
+* 感知机
+  * 我们来验算第二行, 这时的输入是 $x_1=0;x_2=1$, 带入公式(1):
+    $$a = b$$
+    \begin{align}
+    y&=f(\mathrm{w}\bullet\mathrm{x}+b)\\
+    &=f(w_1x_1+w_2x_2+b)\\
+    &=f(0.5\times1+0.5\times0-0.3)\\
+    &=f(0.2)\\
+    &=1
+    \end{align}
+  * 图片
+    \begin{center}
+    \includegraphics[width=0.3\textwidth]{/home/dr/Desktop/tmp.png}
+    \end{center}

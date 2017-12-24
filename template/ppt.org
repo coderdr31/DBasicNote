@@ -1,0 +1,18 @@
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+BEAMER_THEME: Madrid
+#+OPTIONS: H:2 toc:t
+#+LATEX_HEADER: \usepackage{xeCJK}
+
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL: split
+#+REVEAL_THEME: serif
+
+* 一级标题(H:2故一级标题不显示)
+** 二级标题(H:2 frame)
+   * list1
+   * list2
+** frame2
+*** 三级标题(强调)
+   * beamer: ,ee(shortcut,ctrl+n,p,g, first_time M+x_org-beamer-export-to-pdf)
+   * reveal
